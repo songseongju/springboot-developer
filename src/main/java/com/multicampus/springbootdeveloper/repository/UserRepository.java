@@ -1,4 +1,4 @@
-package com.multicampus.springbootdeveloper.domain;
+package com.multicampus.springbootdeveloper.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

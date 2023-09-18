@@ -1,7 +1,7 @@
 package com.multicampus.springbootdeveloper.service;
 
 import com.multicampus.springbootdeveloper.domain.User;
-import com.multicampus.springbootdeveloper.domain.UserRepository;
+import com.multicampus.springbootdeveloper.repository.UserRepository;
 import com.multicampus.springbootdeveloper.dto.AddUserRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

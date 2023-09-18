@@ -1,11 +1,9 @@
 package com.multicampus.springbootdeveloper.service;
 
 import com.multicampus.springbootdeveloper.domain.User;
-import com.multicampus.springbootdeveloper.domain.UserRepository;
+import com.multicampus.springbootdeveloper.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @RequiredArgsConstructor
